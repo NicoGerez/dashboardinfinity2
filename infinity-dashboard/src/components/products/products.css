@@ -48,3 +48,13 @@
     color: black;
     margin-top: 0.6rem; 
 }
+.last-price{
+    width:100%;
+    padding: 20px;
+    font-size: 1.2rem;
+    color: black;
+    background: rgba(3, 43, 221, 0.099);
+    text-shadow: 1px 1px 5px #0000006d;
+    text-align: center;
+
+}

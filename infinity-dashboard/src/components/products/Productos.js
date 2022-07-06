@@ -42,6 +42,7 @@ function Productos() {
           <p className="last-title">{data.products[data.products.length-16].name}</p>
           <p className="last-desc">{data.products[data.products.length-16].description}</p>
           <img className="last-img" src= {data.products[data.products.length-16].image}/>
+          <p className="last-price">$ {data.products[data.products.length-16].price}</p>
         </div>
     } }
 
