@@ -1,7 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap%27");
 
-* {
+ * {
   margin: 0;
   padding: 0;
-  font-family: "Plus Jakarta Sans", sans-serif;
+
+} 
+
+p {
+text-align: center;
+font-weight: bold;
+}
+.listProduct{
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(89, 156, 201);;
+  margin: 10px;
+  padding: 5px;
+}
+.listProduct:hover{
+  box-shadow: 0 0 20px rgb(226, 226, 85);
+}
+.last-product{
+ display: flex;
 }

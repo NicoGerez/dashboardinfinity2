@@ -21,17 +21,16 @@
     width:100%;
     padding: 20px;
     font-size: 1.2rem;
-    color: blue;
+    color: rgb(5, 5, 5);
     background: rgba(3, 43, 221, 0.099);
     text-shadow: 1px 1px 5px #0000006d;
     text-align: center;
-
 }
 
 .card-value{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bolder;
-    color: blue;
+    color: rgb(3, 3, 3);
     margin-top: 0.6rem; 
 }
 article.card:hover{

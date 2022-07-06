@@ -39,10 +39,10 @@ function Productos() {
            if (loading) { return "loading..." } 
         else {return <div className="card-last">
           <p className="last-title"> Ultimo Producto</p>
-          <p className="last-title">{data.products[data.products.length-16].name}</p>
-          <p className="last-desc">{data.products[data.products.length-16].description}</p>
-          <img className="last-img" src= {data.products[data.products.length-16].image}/>
-          <p className="last-price">$ {data.products[data.products.length-16].price}</p>
+          <p className="last-title">{data.products[data.products.length-1].name}</p>
+          <p className="last-desc">{data.products[data.products.length-1].description}</p>
+          <img className="last-img" src= {data.products[data.products.length-1].image}/>
+          <p className="last-price">$ {data.products[data.products.length-1].price}</p>
         </div>
     } }
 
@@ -63,13 +63,6 @@ function Productos() {
           <section className="list-products"> 
             {listProducts()}
           </section>
-          
-          <p>   --    </p>
-          <p>   --    </p>
-          <p>   --    </p>
-          <p>   --    </p>
-          <p>   --    </p>
-          <p>   --    </p> 
           <section className="last-product"> 
           {lastProduct()}
           
