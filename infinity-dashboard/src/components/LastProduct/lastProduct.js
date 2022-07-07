@@ -1,3 +1,5 @@
+import './lastProduct.css'
+
 function LastProduct(props) {
 
     return (
