@@ -52,7 +52,7 @@ function Productos() {
         <div id="products">
           <div className="panels">
             <Card loading={loading} error={error} value={loading ? "..." : data.count} title={"Productos"} />
-            <Card loading={loading} error={error} value={loading ? "..." : data.countByCategory.length} title={"Categorias"} />
+            <Card loading={loading} error={error} value={loading ? "..." : data.countByCategory.length} title={"Categorías"} />
             {/* <Card loading={loading} error={error} value={loading ? "..." : data.products[data.products.length-1].name} title={"ULTIMO PRODUCTO"} /> */}
             
           </div>
