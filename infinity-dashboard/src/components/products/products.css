@@ -46,3 +46,7 @@
     text-shadow: 1px 1px 5px #0000006d;
     text-align: center;
 }
+.last-img{
+    max-width: 80vw;
+    max-height: 80vw;
+}
