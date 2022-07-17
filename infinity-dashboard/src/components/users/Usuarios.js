@@ -28,7 +28,8 @@ export default function Usuarios(){
     console.log(data);
     return(
         <div className="users">
-            <p className="user-title">Cantidad de usuarios: {data.total}</p>
+            <p className="user-title">Cantidad de usuarios: {data.total}</p>    
+            <a href="http://localhost:3030/users/usersList"><button className="boton">Lista de Usuarios</button></a>
         </div>
     )
 }

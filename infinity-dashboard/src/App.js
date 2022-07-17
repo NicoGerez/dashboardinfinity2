@@ -8,8 +8,6 @@ function App() {
     <div className="App">
       <Usuarios />
       <Productos />
-
-
     </div>
   );
 }

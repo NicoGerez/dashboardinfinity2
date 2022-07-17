@@ -2,8 +2,9 @@
     width: 100%; 
     border: 1px solid rgba(204, 109, 204, 0.329);
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
+    justify-content: center;
     background: linear-gradient(rgb(25, 97, 165), rgb(0, 174, 255))
 }
 
@@ -12,4 +13,9 @@
     font-size: 1.8rem;
     color: rgb(0, 0, 0);
     text-shadow: 1px 1px 5px #1f22ca88;
+}
+.boton{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
 }
