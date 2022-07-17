@@ -5,7 +5,7 @@ function LastProduct(props) {
     return (
         <div className="lastProduct">
             <p>{props.name}</p>
-        </div>
+        </div>   
     );
 }
 
